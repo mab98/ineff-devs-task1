@@ -52,3 +52,45 @@ select {
   text-align: center;
   padding: 260px;
 }
+
+main {
+  margin: 5%;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+#text1 {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(114, 113, 113);
+}
+
+#rolodex1 {
+  gap: 5%;
+  margin: 50px auto;
+  display: flex;
+  margin-bottom: 7%;
+}
+
+#rolodex1-text {
+  font-size: 16px;
+  text-align: center;
+  color: rgb(89, 88, 88);
+}
+
+#rolodex2-heading{
+  text-align: center;
+  margin-top: 5%;
+}
+
+#rolodex2-heading h2{
+  font-weight: normal;
+  font-size: 45px;
+}
+
+#rolodex2{
+  gap: 5%;
+  margin: 50px auto;
+  display: flex;
+  /* margin-bottom: 10%; */
+}

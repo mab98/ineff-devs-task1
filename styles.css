@@ -54,7 +54,7 @@ select {
 }
 
 main {
-  margin: 5%;
+  margin: 5% 5% 0 5%;
   /* justify-content: center; */
   /* align-items: center; */
 }
@@ -142,8 +142,8 @@ main {
   background: url("./images/collection-ml_461x184.png");
   background-position: center;
   background-size: cover;
-    height: 1rem;
-  width: 50rem;
+  height: 1em;
+  width: 45em;
   color: #fff;
   text-align: center;
   padding: 10%;
@@ -157,4 +157,39 @@ main {
 #collection-text{
   text-align: center;
   color: rgb(85, 82, 82);
+}
+
+#using-heading{
+  text-align: center;
+  margin-top: 5%; 
+}
+
+#using-heading h2{
+  font-weight: lighter;
+  font-size: 35px;
+}
+
+#using{
+  margin-top: 3%;
+  background-color: rgb(245, 239, 239);
+  padding: 0 10%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+#using-container{
+  margin: 5% 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  row-gap: 25%;
+  column-gap: 20%;
+  padding-bottom: 3%;
+}
+
+#using-text{
+  text-align: center;
+  color: rgb(85, 82, 82);
+  margin-bottom: 4%;
 }

@@ -108,3 +108,53 @@ main {
   flex-direction: column;
   margin: 10px auto;
 }
+
+#collection-heading{
+  text-align: center;
+  margin-top: 5%;
+}
+
+#collection-heading h2{
+  font-weight: normal;
+  font-size: 35px;
+}
+
+#collection{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5%;
+  column-gap: 10%;
+}
+
+#collection1{
+  background: url("./images/collection-startup_460x184.png");
+  background-position: center;
+  background-size: cover;
+  height: 1rem;
+  width: 50rem;
+  color: #fff;
+  text-align: center;
+  padding: 10%;
+}
+
+#collection2{
+  background: url("./images/collection-ml_461x184.png");
+  background-position: center;
+  background-size: cover;
+    height: 1rem;
+  width: 50rem;
+  color: #fff;
+  text-align: center;
+  padding: 10%;
+}
+
+#collection h4{
+  font-size: x-large;
+  font-weight: normal;
+}
+
+#collection-text{
+  text-align: center;
+  color: rgb(85, 82, 82);
+}

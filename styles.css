@@ -78,12 +78,12 @@ main {
   color: rgb(89, 88, 88);
 }
 
-#rolodex2-heading{
+#section-heading{
   text-align: center;
   margin-top: 5%;
 }
 
-#rolodex2-heading h2{
+#section-heading h2{
   font-weight: normal;
   font-size: 45px;
 }
@@ -93,4 +93,18 @@ main {
   margin: 50px auto;
   display: flex;
   /* margin-bottom: 10%; */
+}
+
+.benefits{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8%;
+  row-gap: 5%;
+}
+
+.benefits-div{
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
 }

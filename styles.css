@@ -237,10 +237,11 @@ footer{
 
 #line1{
   background-color: rgb(57, 67, 77);
-  color: cyan;
+  color: rgb(8, 186, 186);
   height: 30px;
   display: flex;
   justify-content: center;
+  font-size: smaller;
   align-items: flex-end;
 }
 
@@ -259,5 +260,9 @@ i{
 }
 
 #line3{
+  color: white;
+}
+
+.vbar{
   color: white;
 }

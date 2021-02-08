@@ -65,14 +65,14 @@ main {
   color: rgb(114, 113, 113);
 }
 
-#rolodex1 {
+#collections {
   gap: 5%;
   margin: 50px auto;
   display: flex;
   margin-bottom: 7%;
 }
 
-#rolodex1-text {
+#collections-text {
   font-size: 16px;
   text-align: center;
   color: rgb(89, 88, 88);
@@ -88,14 +88,20 @@ main {
   font-size: 45px;
 }
 
-#rolodex2 {
+#features {
   gap: 5%;
   margin: 50px auto;
   display: flex;
   /* margin-bottom: 10%; */
 }
 
-.benefits {
+#benefits {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+.benefit {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,11 +109,20 @@ main {
   row-gap: 5%;
 }
 
-.benefits-div {
+.benefit-div {
   display: flex;
   flex-direction: column;
   margin: 10px auto;
 }
+
+.benefit-div > :first-child{
+  font-size: x-large; line-height: 40px;
+}
+
+.benefit img {
+  width: 80px; height: 80px;
+}
+
 
 #collection-heading {
   text-align: center;
@@ -194,13 +209,15 @@ main {
   margin-bottom: 4%;
 }
 
-#tag, #support {
+#tag,
+#support {
   text-align: center;
   margin: auto;
-  padding: 5rem;;
+  padding: 5rem;
 }
 
-#tag h4, #support h4{
+#tag h4,
+#support h4 {
   padding-bottom: 20px;
   font-weight: normal;
   font-size: 40px;
@@ -213,7 +230,7 @@ main {
   padding: 15px 15px;
 }
 
-input[type=text] {
+input[type="text"] {
   width: 45%;
   padding: 12px;
   margin: 8px 0;
@@ -221,21 +238,21 @@ input[type=text] {
   box-sizing: border-box;
 }
 
-#support{
+#support {
   background-color: rgb(245, 239, 239);
 }
 
-#support div{
+#support div {
   display: flex;
   justify-content: center;
   column-gap: 10%;
 }
 
-footer{
+footer {
   text-align: center;
 }
 
-#line1{
+#line1 {
   background-color: rgb(57, 67, 77);
   color: rgb(8, 186, 186);
   height: 30px;
@@ -245,7 +262,7 @@ footer{
   align-items: flex-end;
 }
 
-#line2{
+#line2 {
   background-color: rgb(16, 21, 27);
   color: rgb(238, 255, 255);
   height: 30px;
@@ -255,14 +272,42 @@ footer{
   font-size: smaller;
 }
 
-i{
+i {
   display: inline;
 }
 
-#line3{
+#line3 {
   color: white;
 }
 
-.vbar{
+.vbar {
   color: white;
+}
+
+#collections article {
+  width: 33%;
+}
+
+#collections article img,
+#features article img {
+  width: 100%;
+}
+
+.feature-heading {
+  font-size: larger;
+  line-height: 40px;
+}
+
+#features article {
+  width: 33%;
+  text-align: center;
+}
+
+.embed-share {
+  padding-top: 1%;
+  padding-left: 1%;
+  background-color: lightgrey;
+  border-radius: 5px;
+  height: 28px;
+  margin-top: 5px;
 }

@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clipmine</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -12,27 +13,31 @@
 <body>
   <header>
     <nav>
+      <a class="icon">
+        <i class="fa fa-bars"></i>
+      </a>
       <ul>
-        <li><a href="./index.html"> <img src="./images/pics-clipmine_logo_beta_226x50.png"
+        <li><a href="#"> <img src="./images/pics-clipmine_logo_beta_226x50.png"
               alt="clipmine_logo_beta_226x50"></a></li>
-        <li><a href="./index.html"> Home </a></li>
-        <li><a href="#"> Help </a></li>
-        <li><a href="#"> <i class="fa fa-search"></i>
+        <li><a class="others" href="#"> Home </a></li>
+        <li><a class="others" href="#"> Help </a></li>
+        <li><a class="others" href="#"> <i class="fa fa-search"></i>
             <select name="cars" id="cars">
               <option value="volvo">Search</option>
             </select>
           </a></li>
       </ul>
       <ul>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Log In</a></li>
-        <li><a href="#">Sign Up</a></li>
+        <li><a class="others" href="#">Blog</a></li>
+        <li><a class="others" href="#">Log In</a></li>
+        <li><a class="others" href="#">Sign Up</a></li>
       </ul>
+      
     </nav>
     <section id="top-image">
-      <p id="top-heading">A Better Video Experience for the <br> Web</p>
-      <p id="margin1"> Clipmine enables bloggers, creators and enthusiasts <br> to tag content inside videos and create
-        a <br> more
+      <p id="top-heading">A Better Video Experience for the Web</p>
+      <p id="top-text"> Clipmine enables bloggers, creators and enthusiasts to tag content inside videos and create
+        a more
         engaging video experience. </p>
       <button id="signup-button"> Sign Up </button>
     </section>
@@ -156,22 +161,21 @@
     </section>
 
     <section>
-      <div id="collection-heading">
+      <div id="vcollection-heading">
         <h2> ClipMine Video Collections </h2>
       </div>
 
-      <div id="collection">
-        <article id="collection1">
+      <div id="vcollection">
+        <article id="vcollection1">
           <h4>STARTUPS</h4>
         </article>
-        <article id="collection2">
+        <article id="vcollection2">
           <h4>MACHINE LEARNING</h4>
         </article>
       </div>
 
       <div>
-        <p id="collection-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis fuga impedit tempora
-          <br> consequatur. Exercitationem amet quisere!
+        <p id="vcollection-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis fuga impedit tempora consequatur. Exercitationem amet quisere!
         </p>
       </div>
     </section>

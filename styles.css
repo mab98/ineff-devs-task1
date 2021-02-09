@@ -34,7 +34,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #616161;
+  color: rgb(3, 129, 146);
 }
 
 a:visited{
@@ -136,6 +136,7 @@ main {
   justify-content: center;
   align-items: center;
   column-gap: 8%;
+  width: 80%;
   row-gap: 5%;
 }
 

@@ -136,7 +136,7 @@ main {
   justify-content: center;
   align-items: center;
   column-gap: 8%;
-  width: 80%;
+  /* width: 80%; */
   row-gap: 5%;
 }
 
@@ -353,14 +353,6 @@ i {
   ul {
     display: none;
   }
-/* 
-  nav a.icon {
-    background: rgb(255, 255, 255);
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 30%;
-  } */
 
   #top-heading {
     font-size: 135%;
@@ -682,4 +674,10 @@ i {
     background-color: #fff;
   }
   
+}
+
+@media (min-width:1500px){
+  .benefit{
+    padding: 0 10%;
+  }
 }

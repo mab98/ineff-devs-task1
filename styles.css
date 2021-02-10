@@ -73,7 +73,7 @@ select {
   background-color: #16a6d6;
   border: none;
   color: white;
-  padding: 2% 10%;
+  padding: 20px 80px;
   font-size: large;
 }
 
@@ -365,9 +365,6 @@ i {
   }
 
   #signup-button {
-    background-color: #16a6d6;
-    border: none;
-    color: white;
     padding: 2% 5%;
   }
 
